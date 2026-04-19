@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOrEvenChecker", "OddOrEvenChecker.csproj", "{08833572-7CC9-4A41-9855-846DC048F3A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckOddOrEvenNumbers", "..\CheckOddOrEvenNumbers\CheckOddOrEvenNumbers.csproj", "{7F6303EC-099A-4993-A7DB-399AB1940E2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08833572-7CC9-4A41-9855-846DC048F3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08833572-7CC9-4A41-9855-846DC048F3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08833572-7CC9-4A41-9855-846DC048F3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08833572-7CC9-4A41-9855-846DC048F3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6303EC-099A-4993-A7DB-399AB1940E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6303EC-099A-4993-A7DB-399AB1940E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6303EC-099A-4993-A7DB-399AB1940E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6303EC-099A-4993-A7DB-399AB1940E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1723AA8C-86B6-4899-8976-D8C283B6C6A5}
+	EndGlobalSection
+EndGlobal
