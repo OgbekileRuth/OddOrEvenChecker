@@ -1,33 +1,40 @@
-﻿namespace OddOrEvenChecker
+﻿namespace CheckOddOrEvenNumbers
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            try
+            while (true) // loop to keep running
             {
-                // User inputs a number
-                Console.WriteLine("Enter a number:");
-                int number = Convert.ToInt32(Console.ReadLine());
-                //check if the number is even or odd
-                if (number % 2 == 0)
+                Console.WriteLine("Enter a number (or type 'exit' to quit): ");
+                string input = Console.ReadLine();
+
+                // use break to exit the loop
+                if (input.ToLower() == "exit")
                 {
-                    Console.WriteLine($"{number} is an even number.");
+                    break;
                 }
-                else
-                {
-                    Console.WriteLine($"{number} is an odd number.");
-                }
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("Error: Please enter valid numbers");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Unexpected error: {ex.Message}");
+
+                int number = Convert.ToInt32(input);
+
+                // Call the method
+                CheckOddOrEven(number);
             }
 
+            Console.WriteLine("Program ended.");
+        }
+
+        // Method to check odd or even
+        static void CheckOddOrEven(int number)
+        {
+            if (number % 2 == 0)
+            {
+                Console.WriteLine("The number is Even.");
+            }
+            else
+            {
+                Console.WriteLine("The number is Odd.");
+            }
         }
     }
-}
+    }
